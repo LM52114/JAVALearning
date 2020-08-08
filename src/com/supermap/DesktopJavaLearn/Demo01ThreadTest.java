@@ -6,6 +6,7 @@ public class Demo01ThreadTest {
         myThread1.start();
         MyThread myThread2 = new MyThread("线程2");
         myThread2.start();
+
     }
 
 }
