@@ -1,12 +1,11 @@
 package com.supermap.DesktopJavaLearn;
 
+import com.supermap.DesktopJavaLearn.Dialogs.MyDialogDemon01;
+
 public class Demo01ThreadTest {
     public static void main(String[] args) {
-        MyThread myThread1 = new MyThread("线程1");
-        myThread1.start();
-        MyThread myThread2 = new MyThread("线程2");
-        myThread2.start();
-
+        MyDialogDemon01 dialogDemon01 = new MyDialogDemon01();
+        dialogDemon01.show();
     }
 
 }
