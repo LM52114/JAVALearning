@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>好友头像</title>
+    <desc>Created with Sketch.</desc>
+    <g id="图标需求" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-101.000000, -13.000000)">
+            <g id="好友头像" transform="translate(101.000000, 13.000000)">
+                <g id="分组" transform="translate(3.000000, 3.000000)">
+                    <g transform="translate(5.400000, 5.400000)" stroke="#27A2DF">
+                        <path d="M0.6,15.1 L14.6,15.1" id="路径" stroke-linecap="round"></path>
+                        <path d="M14.6,15.2 C14.6,11.3340068 11.4659932,8.2 7.6,8.2 C3.73400675,8.2 0.6,11.3340068 0.6,15.2"
+                              id="路径" stroke-width="1.2" stroke-linecap="round"></path>
+                        <circle id="椭圆形" stroke-width="1.2" cx="7.6" cy="4.1" r="4"></circle>
+                    </g>
+                    <rect id="矩形" stroke="#808FA1" fill-rule="nonzero" x="0.5" y="0.5" width="25" height="25"
+                          rx="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

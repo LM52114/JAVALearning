@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>24-Image_ToolButton_Rename</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-161.000000, -1899.000000)" fill-rule="nonzero">
+            <g id="24" transform="translate(14.000000, 1839.000000)">
+                <g id="24-Image_ToolButton_Rename" transform="translate(147.000000, 60.000000)">
+                    <g id="分组-202" transform="translate(3.000000, 3.000000)">
+                        <path d="M17,9.22182541 L18,9.22182541 L18,13 C18,13.5522847 17.5522847,14 17,14 L1,14 C0.44771525,14 0,13.5522847 0,13 L0,6 C0,5.44771525 0.44771525,5 1,5 L12.2218254,5 L12.2218254,6 L1,6 L1,13 L17,13 L17,9.22182541 Z"
+                              id="合并形状" fill="#F0F0F0"></path>
+                        <path d="M17.5655079,6.33398705 L15.4441875,4.2126667 L16.6568542,3 L18.7781746,5.12132034 L17.5655079,6.33398705 Z M16.8584011,7.04109383 L13.1213203,10.7781746 L11,10.7781746 L11,8.65685425 L14.7370808,4.91977348 L16.8584011,7.04109383 Z"
+                              id="合并形状" fill="#F0F0F0"></path>
+                        <g id="分组-201" transform="translate(2.000000, 0.000000)">
+                            <rect id="矩形" fill="#F0F0F0" x="2" y="1" width="1" height="16"></rect>
+                            <rect id="矩形" stroke="#F0F0F0" fill="#D8D8D8" x="0.5" y="9.5" width="4" height="1"></rect>
+                            <polyline id="路径-207" stroke="#F0F0F0"
+                                      points="4.4408921e-16 0 2.57080078 1.72338867 5.12646484 0"></polyline>
+                            <polyline id="路径-207" stroke="#F0F0F0"
+                                      transform="translate(2.563232, 17.861694) rotate(-180.000000) translate(-2.563232, -17.861694) "
+                                      points="4.4408921e-16 17 2.57080078 18.7233887 5.12646484 17"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

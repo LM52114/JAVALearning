@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>16-Image_DatasetGridCollection_Normal</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-256.000000, -1773.000000)" fill="#F0F0F0" fill-rule="nonzero">
+            <g id="16" transform="translate(14.000000, 1689.000000)">
+                <g id="Dataset" transform="translate(0.000000, 84.000000)">
+                    <g id="16-Image_DatasetGridCollection_Normal" transform="translate(242.000000, 0.000000)">
+                        <g id="Image_DatasetGridCollection_Normal" transform="translate(1.000000, 1.000000)">
+                            <path d="M2,9 L2,10 L0,10 L0,0 L10,0 L10,2 L9,2 L9,1 L1,1 L1,9 L2,9 Z" id="合并形状"></path>
+                            <path d="M4,11 L4,12 L2,12 L2,2 L12,2 L12,4 L11,4 L11,3 L3,3 L3,11 L4,11 Z"
+                                  id="合并形状"></path>
+                            <path d="M5,5 L5,13 L13,13 L13,5 L5,5 Z M4,4 L14,4 L14,14 L4,14 L4,4 Z" id="矩形"></path>
+                            <path d="M10,11 L8,11 L8,13 L7,13 L7,11 L5,11 L5,10 L7,10 L7,8 L5,8 L5,7 L7,7 L7,5 L8,5 L8,7 L10,7 L10,5 L11,5 L11,7 L13,7 L13,8 L11,8 L11,10 L13,10 L13,11 L11,11 L11,13 L10,13 L10,11 Z M10,10 L10,8 L8,8 L8,10 L10,10 Z"
+                                  id="合并形状"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

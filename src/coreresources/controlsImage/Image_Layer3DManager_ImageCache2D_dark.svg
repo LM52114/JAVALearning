@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>16-Image_Layer3DManager_ImageCache2D</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-803.000000, -1868.000000)" fill="#F0F0F0" fill-rule="nonzero">
+            <g id="controlsImage" transform="translate(33.000000, 1852.000000)">
+                <g id="16-Image_Layer3DManager_ImageCache2D" transform="translate(770.000000, 16.000000)">
+                    <g id="Scenes" transform="translate(0.805664, 1.000000)">
+                        <path d="M11,2 L11,1 L1,1 L1,11 L2,11 L2,3 C2,2.44771525 2.44771525,2 3,2 L11,2 Z M12,2 L13,2 C13.5522847,2 14,2.44771525 14,3 L14,13 C14,13.5522847 13.5522847,14 13,14 L3,14 C2.44771525,14 2,13.5522847 2,13 L2,12 L1,12 C0.44771525,12 0,11.5522847 0,11 L0,1 C0,0.44771525 0.44771525,0 1,0 L11,0 C11.5522847,0 12,0.44771525 12,1 L12,2 Z M3,3 L3,13 L13,13 L13,3 L3,3 Z"
+                              id="合并形状"></path>
+                        <path d="M6.11125248,11.4225352 L9.59716797,6 L14.097168,13 L7.09716797,13 L2.09716797,13 L4.59716797,9 L6.11125248,11.4225352 Z M5.59716797,7 C4.76874084,7 4.09716797,6.32842712 4.09716797,5.5 C4.09716797,4.67157288 4.76874084,4 5.59716797,4 C6.42559509,4 7.09716797,4.67157288 7.09716797,5.5 C7.09716797,6.32842712 6.42559509,7 5.59716797,7 Z"
+                              id="合并形状"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

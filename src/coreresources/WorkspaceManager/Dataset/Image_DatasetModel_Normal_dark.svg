@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>16-Image_DatasetModel_Normal</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-146.000000, -1773.000000)" fill-rule="nonzero" stroke="#F0F0F0">
+            <g id="16" transform="translate(14.000000, 1689.000000)">
+                <g id="Dataset" transform="translate(0.000000, 84.000000)">
+                    <g id="16-Image_DatasetModel_Normal" transform="translate(132.000000, 0.000000)">
+                        <g id="Image_DatasetModel_Normal" transform="translate(0.000000, 1.000000)">
+                            <rect id="矩形" x="1.47509766" y="0.5" width="13" height="13" rx="1"></rect>
+                            <polyline id="路径-195"
+                                      points="2 6.60449219 4.80517578 6.60449219 4.80517578 10.9243164 6.96240234 10.9243164 6.96240234 5 10.3359375 5 10.3359375 10.9243164 12.0737305 10.9243164 12.0737305 7.9621582 14.6601563 7.9621582"></polyline>
+                            <path d="M8.53198242,4.90380859 L8.53198242,2.42871094" id="直线-133"
+                                  stroke-linecap="square"></path>
+                            <path d="M3.5,6.5 L3.5,4" id="直线-134" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

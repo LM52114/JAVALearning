@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>16-Image_ThemeGuide_GeoRegionStyle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-517.000000, -1868.000000)" fill-rule="nonzero" stroke="#F0F0F0">
+            <g id="controlsImage" transform="translate(33.000000, 1852.000000)">
+                <g id="16-Image_ThemeGuide_GeoRegionStyle" transform="translate(484.000000, 16.000000)">
+                    <g id="分组-272">
+                        <path d="M1.5,8.5 L8.09716797,1.90283203" id="直线-202" stroke-linecap="square"></path>
+                        <path d="M2.5,11 L11.2564697,2.24353027" id="直线-203" stroke-linecap="square"></path>
+                        <path d="M3.92578125,13.1589355 L12.5324707,4.4675293" id="直线-204"
+                              stroke-linecap="square"></path>
+                        <path d="M7.37011719,14.0681152 L14.4020232,7" id="直线-205" stroke-linecap="square"></path>
+                        <path d="M8.09716797,0.577350269 L1.66896474,4.28867513 L1.66896474,11.7113249 L8.09716797,15.4226497 L14.5253712,11.7113249 L14.5253712,4.28867513 L8.09716797,0.577350269 Z"
+                              id="多边形"
+                              transform="translate(8.097168, 8.000000) rotate(-270.000000) translate(-8.097168, -8.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

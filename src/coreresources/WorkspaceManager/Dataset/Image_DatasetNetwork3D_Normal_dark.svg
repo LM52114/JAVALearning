@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>16-Image_DatasetNetwork3D_Normal</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-344.000000, -1773.000000)" fill-rule="nonzero">
+            <g id="16" transform="translate(14.000000, 1689.000000)">
+                <g id="Dataset" transform="translate(0.000000, 84.000000)">
+                    <g id="16-Image_DatasetNetwork3D_Normal" transform="translate(330.000000, 0.000000)">
+                        <g id="Image_DatasetNetwork3D_Normal" transform="translate(0.975098, 2.000000)">
+                            <g id="分组-182" transform="translate(1.000000, 0.000000)" stroke="#F0F0F0"
+                               stroke-linecap="square">
+                                <path d="M0.993840306,8.90649414 L10.0249023,-2.97539771e-13" id="直线-142"></path>
+                                <path d="M1.5,12.5 L4.00939941,9.99060059" id="直线-143"></path>
+                                <path d="M4.00939941,5.5 L0.949645996,2.44024658" id="直线-144"></path>
+                            </g>
+                            <g id="分组-183" stroke="#F0F0F0" stroke-linecap="square">
+                                <path d="M3.47952271,11.2453003 L0.27116394,8.03694153" id="直线-145"></path>
+                                <path d="M7,3.15106201 L4.65106201,0.802124023" id="直线-146"></path>
+                                <path d="M9.5,1.5 L12.725708,4.72570801" id="直线-147"></path>
+                            </g>
+                            <path d="M11.0249023,12.9605924 L11.0249023,10.1676237 L13.5559913,8.70629883 L13.5559913,11.4992676 L11.0249023,12.9605924 Z M10.0249023,12.9605924 L7.49381343,11.4992676 L7.49381343,8.70629883 L10.0249023,10.1676237 L10.0249023,12.9605924 Z M10.5249023,6 L13.5559913,7.75 L10.5249023,9.41967773 L7.49381343,7.75 L10.5249023,6 Z"
+                                  id="合并形状" fill="#F0F0F0"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

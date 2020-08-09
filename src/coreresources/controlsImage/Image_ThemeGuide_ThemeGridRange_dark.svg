@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>32-Image_ThemeGuide_ThemeGridRange</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-1147.000000, -1852.000000)" fill-rule="nonzero">
+            <g id="controlsImage" transform="translate(33.000000, 1852.000000)">
+                <g id="32-Image_ThemeGuide_ThemeGridRange" transform="translate(1114.000000, 0.000000)">
+                    <g id="分组-263" transform="translate(3.000000, 3.000000)">
+                        <rect id="矩形" stroke="#F0F0F0" x="0.5" y="0.5" width="25" height="25" rx="1"></rect>
+                        <path d="M4,4 L4,22 L22,22 L22,4 L4,4 Z M3,3 L23,3 L23,23 L3,23 L3,3 Z" id="矩形"
+                              fill="#F0F0F0"></path>
+                        <path d="M18.75,18.5 L18.5,18.5 L18.5,13.5 L18.75,13.5 L18.5,13.5 L18.5,8.5 L18.75,8.5 L18.5,8.5 L18.5,6 L18.5,8.5 L13.5,8.5 L13.5,8.25 L13.5,8.5 L8.5,8.5 L8.5,8.25 L8.5,8.5 L8.25,8.5 L8.5,8.5 L8.5,13.5 L8.25,13.5 L8.5,13.5 L8.5,18.5 L8.25,18.5 L8.5,18.5 L8.5,18.75 L8.5,18.5 L13.5,18.5 L13.5,18.75 L13.5,18.5 L18.5,18.5 L18.5,18.75 L18.5,18.5 L18.75,18.5 Z M8.25,18.5 L6,18.5 L8,18.5 L8.25,18.5 Z M18.5,13.5 L18.5,18.5 L13.5,18.5 L13.5,13.5 L18.5,13.5 Z M13.5,13.5 L13.5,18.5 L8.5,18.5 L8.5,13.5 L13.5,13.5 Z M13.5,13.5 L8.5,13.5 L8.5,8.5 L13.5,8.5 L13.5,13.5 Z M13.5,13.5 L13.5,8.5 L18.5,8.5 L18.5,13.5 L13.5,13.5 Z"
+                              id="合并形状" stroke="#F0F0F0"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

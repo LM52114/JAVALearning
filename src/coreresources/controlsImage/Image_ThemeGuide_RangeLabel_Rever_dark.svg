@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>16-Image_ThemeGuide_RangeLabel_Rever</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-407.000000, -1868.000000)" fill-rule="nonzero" stroke="#F0F0F0">
+            <g id="controlsImage" transform="translate(33.000000, 1852.000000)">
+                <g id="16-Image_ThemeGuide_RangeLabel_Rever" transform="translate(374.000000, 16.000000)">
+                    <g id="分组-268" transform="translate(2.000000, 1.000000)">
+                        <g id="分组-176" transform="translate(0.000000, 1.000000)">
+                            <polyline id="路径-199"
+                                      points="0.343145751 2.6854248 3.05910839 0 5.81298828 2.6854248"></polyline>
+                            <path d="M3.07513428,0.5 L3.07513428,12.614502" id="直线-154" stroke-linecap="square"></path>
+                        </g>
+                        <g id="分组-176"
+                           transform="translate(9.000000, 6.500000) rotate(-180.000000) translate(-9.000000, -6.500000) translate(6.000000, 0.000000)">
+                            <polyline id="路径-199" points="0.343145751 2.71728516 3.05910839 0 6 2.71728516"></polyline>
+                            <path d="M3.07513428,0.5 L3.07513428,12.614502" id="直线-154" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

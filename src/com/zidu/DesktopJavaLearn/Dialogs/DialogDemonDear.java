@@ -20,8 +20,8 @@ public class DialogDemonDear extends JDialog {
         JLabel labelSex = new JLabel(CoreProperties.getString("String_Sex"));
         JTextField textFieldSex = new JTextField();
         JLabel labelName = new JLabel(CoreProperties.getString("String_Name"));
-        JTextField textFieldName = new JTextField(CoreProperties.getString("String_Sex"));
-        JLabel labelNewName = new JLabel(CoreProperties.getString("String_Sex"));
+        JTextField textFieldName = new JTextField();
+        JLabel labelNewName = new JLabel(CoreProperties.getString("String_NewName"));
         String[] newName = {CoreProperties.getString("String_Sex"), CoreProperties.getString("String_Sex"), CoreProperties.getString("String_Sex"), CoreProperties.getString("String_Sex")};
         JComboBox comboBox = new JComboBox(newName);
         comboBox.setRenderer(new DefaultListCellRenderer());

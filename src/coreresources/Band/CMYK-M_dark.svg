@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>16-CMYK-M</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-518.000000, -2111.000000)">
+            <g id="coreresources" transform="translate(99.000000, 2111.000000)">
+                <g id="Band" transform="translate(44.000000, 0.000000)">
+                    <g id="16-CMYK-M" transform="translate(375.000000, 0.000000)">
+                        <g id="m" transform="translate(1.000000, 1.000000)">
+                            <circle id="椭圆形" fill="#FF00B2" fill-rule="nonzero" cx="7" cy="7" r="7"></circle>
+                            <path d="M3,10.5898438 L3,2 L4.7109375,2 L6.74414062,8.08203125 C6.93164156,8.64844033 7.06835895,9.07226422 7.15429688,9.35351562 C7.25195361,9.04101406 7.40429584,8.58203428 7.61132812,7.9765625 L9.66796875,2 L11.1972656,2 L11.1972656,10.5898438 L10.1015625,10.5898438 L10.1015625,3.40039062 L7.60546875,10.5898438 L6.58007812,10.5898438 L4.09570312,3.27734375 L4.09570312,10.5898438 L3,10.5898438 Z"
+                                  fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

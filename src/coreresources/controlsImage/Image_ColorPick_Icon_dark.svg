@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>16-Image_ColorPick_Icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-561.000000, -1868.000000)" fill-rule="nonzero" stroke="#F0F0F0">
+            <g id="controlsImage" transform="translate(33.000000, 1852.000000)">
+                <g id="16-Image_ColorPick_Icon" transform="translate(528.000000, 16.000000)">
+                    <g id="合并形状-2">
+                        <path d="M8.5,16 L8.5,13.5035165 L8.75497008,13.3601733 C9.22476041,13.0960592 9.52130399,12.5999596 9.52130399,12.0514324 L9.52130399,1.05143237 C9.52130399,0.223005248 8.84973111,-0.448567627 8.02130399,-0.448567627 C7.19287686,-0.448567627 6.52130399,0.223005248 6.52130399,1.05143237 L6.52130399,12.0514324 C6.52130399,12.5868296 6.80367688,13.0727048 7.25569307,13.3416924 L7.5,13.4870756 L7.5,16 C7.5,16.2761424 7.72385763,16.5 8,16.5 C8.27614237,16.5 8.5,16.2761424 8.5,16 Z"
+                              id="合并形状"
+                              transform="translate(8.021304, 8.025716) rotate(-315.000000) translate(-8.021304, -8.025716) "></path>
+                        <path d="M8.86486816,2.8359375 L12.9832401,6.9832401" id="直线-207" stroke-linecap="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

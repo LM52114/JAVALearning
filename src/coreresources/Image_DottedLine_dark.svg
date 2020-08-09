@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px" viewBox="0 0 16 16" version="1.1"
+     xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Image_DottedLine</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="1" y="7" width="15" height="1"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="15"
+              height="1" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="2">
+        <g id="画板" transform="translate(-1155.000000, -1933.000000)" fill-rule="nonzero" stroke="#F0F0F0"
+           stroke-width="2">
+            <g id="Image_DottedLine" transform="translate(1155.000000, 1933.000000)">
+                <use id="矩形" mask="url(#mask-2)" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

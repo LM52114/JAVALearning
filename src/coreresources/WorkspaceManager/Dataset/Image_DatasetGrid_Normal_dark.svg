@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>16-Image_DatasetGrid_Normal</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-168.000000, -1773.000000)" fill-rule="nonzero">
+            <g id="16" transform="translate(14.000000, 1689.000000)">
+                <g id="Dataset" transform="translate(0.000000, 84.000000)">
+                    <g id="16-Image_DatasetGrid_Normal" transform="translate(154.000000, 0.000000)">
+                        <g id="-Image_DatasetGrid_Normal" transform="translate(1.000000, 1.000000)">
+                            <path d="M9,10 L5,10 L5,13 L4,13 L4,10 L1,10 L1,9 L4,9 L4,5 L1,5 L1,4 L4,4 L4,1 L5,1 L5,4 L9,4 L9,1 L10,1 L10,4 L13,4 L13,5 L10,5 L10,9 L13,9 L13,10 L10,10 L10,13 L9,13 L9,10 Z M9,9 L9,5 L5,5 L5,9 L9,9 Z"
+                                  id="合并形状" fill="#F0F0F0"></path>
+                            <rect id="矩形" stroke="#F0F0F0" x="0.5" y="0.5" width="13" height="13" rx="1"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>16-Image_Layer3DManager_OSGBFile</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-781.000000, -1868.000000)" fill-rule="nonzero">
+            <g id="controlsImage" transform="translate(33.000000, 1852.000000)">
+                <g id="16-Image_Layer3DManager_OSGBFile" transform="translate(748.000000, 16.000000)">
+                    <g id="11" transform="translate(0.902832, 1.000000)">
+                        <path d="M14,8 L13,8 L13,5 L5,5 L5,13 L9,13 L9,14 L4,14 L4,12 L2,12 L2,10 L0,10 L0,-4.4408921e-14 L10,-4.4408921e-14 L10,2 L12,2 L12,4 L14,4 L14,8 Z M11,4 L11,3 L3,3 L3,11 L4,11 L4,4 L11,4 Z M2,9 L2,2 L9,2 L9,1 L1,1 L1,9 L2,9 Z"
+                              id="合并形状" fill="#F0F0F0"></path>
+                        <path d="M7.09716797,8 L8.09716797,8 L8.09716797,9 L7.09716797,9 L7.09716797,10 L8.09716797,10 L8.09716797,11 L7.09716797,11 L7.09716797,13 L6.09716797,13 L6.09716797,11 L5.09716797,11 L5.09716797,10 L6.09716797,10 L6.09716797,9 L5.09716797,9 L5.09716797,13 L8.09716797,13 L8.09716797,7 L7.09716797,7 L7.09716797,8 Z M6.09716797,8 L6.09716797,6 L9.09716797,6 L9.09716797,14 L4.09716797,14 L4.09716797,8 L6.09716797,8 Z"
+                              id="合并形状" fill="#F0F0F0"></path>
+                        <rect id="矩形" stroke="#F0F0F0" x="10.597168" y="9.5" width="4" height="4"></rect>
+                        <rect id="矩形" fill="#F0F0F0" x="12.097168" y="11" width="1" height="1"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>24-Image_Excute</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-92.000000, -1801.000000)" fill-rule="nonzero" stroke="#F0F0F0">
+            <g id="24-Image_Excute" transform="translate(92.000000, 1801.000000)">
+                <g id="分组-175" transform="translate(3.000000, 3.000000)">
+                    <circle id="椭圆形" cx="9" cy="9" r="9"></circle>
+                    <path d="M10,5.94339811 L5.90212382,12.5 L14.0978762,12.5 L10,5.94339811 Z" id="三角形"
+                          transform="translate(10.000000, 9.000000) rotate(-270.000000) translate(-10.000000, -9.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

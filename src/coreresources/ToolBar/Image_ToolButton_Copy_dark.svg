@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>24-Image_ToolButton_Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-247.000000, -1899.000000)" fill="#F0F0F0" fill-rule="nonzero">
+            <g id="24" transform="translate(14.000000, 1839.000000)">
+                <g id="24-Image_ToolButton_Copy" transform="translate(233.000000, 60.000000)">
+                    <g id="分组-205" transform="translate(3.000000, 3.000000)">
+                        <path d="M17,7 L14,7 L14,4 L4,4 L4,17 L17,17 L17,7 Z M16.7762341,6 L15,4.40607058 L15,6 L16.7762341,6 Z M15,3 L18,6 L18,17 C18,17.5522847 17.5522847,18 17,18 L4,18 C3.44771525,18 3,17.5522847 3,17 L3,4 C3,3.44771525 3.44771525,3 4,3 L15,3 Z M6,6 L11,6 L11,7 L6,7 L6,6 Z M6,10 L15,10 L15,11 L6,11 L6,10 Z M6,14 L15,14 L15,15 L6,15 L6,14 Z"
+                              id="合并形状"></path>
+                        <path d="M2.33740234,15 L2.33740234,16 L1,16 C0.44771525,16 0,15.5522847 0,15 L0,1 C0,0.44771525 0.44771525,0 1,0 L13,0 C13.5522847,0 14,0.44771525 14,1 L14,2 L13,2 L13,1 L1,1 L1,15 L2.33740234,15 Z"
+                              id="合并形状"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

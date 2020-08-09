@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>16-Image_DatasetLineM_Normal</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-300.000000, -1773.000000)">
+            <g id="16" transform="translate(14.000000, 1689.000000)">
+                <g id="Dataset" transform="translate(0.000000, 84.000000)">
+                    <g id="16-Image_DatasetLineM_Normal" transform="translate(286.000000, 0.000000)">
+                        <g id="Image_DatasetLineM_Normal" transform="translate(1.000000, 1.000000)">
+                            <polyline id="路径-198" stroke="#F0F0F0" fill-rule="nonzero"
+                                      points="-8.8817842e-16 7 2.98321631 9.92265652 4.47482446 8.46132826 8.68302991 12.5841064 13.7185059 7.74560547"></polyline>
+                            <polygon id="m" fill="#F0F0F0"
+                                     points="5.63 0.574 6.863 0.574 9.05 5.614 9.086 5.614 11.264 0.574 12.497 0.574 12.497 7 11.444 7 11.444 2.572 11.408 2.572 9.518 7 8.609 7 6.719 2.572 6.683 2.572 6.683 7 5.63 7"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
