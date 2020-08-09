@@ -1,7 +1,8 @@
-package com.supermap.DesktopJavaLearn.Dialogs;
+package com.zidu.DesktopJavaLearn.Dialogs;
 
-import com.supermap.DesktopJavaLearn.Controls.ControlOKAndCancelButton;
-import com.supermap.DesktopJavaLearn.Tools.GridBagLayoutHelper;
+import com.zidu.DesktopJavaLearn.Controls.ControlOKAndCancelButton;
+import com.zidu.DesktopJavaLearn.Tools.CoreProperties;
+import com.zidu.DesktopJavaLearn.Tools.GridBagLayoutHelper;
 
 import javax.swing.*;
 import java.awt.*;
@@ -15,14 +16,13 @@ public class DialogDemonDear extends JDialog {
 
     private void init() {
         JPanel panel = new JPanel();
-        this.setTitle("李梦是李浩小宝贝");
-        this.add(panel);
-        JLabel labelSex = new JLabel("性别：");
-        JTextField textFieldSex = new JTextField("小姐姐");
-        JLabel labelName = new JLabel("姓名：");
-        JTextField textFieldName = new JTextField("最美 小仙女");
-        JLabel labelNewName = new JLabel("请选择你的新名字：");
-        String[] newName = {"小宝贝", "小可爱", "亲爱的", "心肝宝贝"};
+        this.setTitle(CoreProperties.getString("String_Dear"));
+        JLabel labelSex = new JLabel(CoreProperties.getString("String_Sex"));
+        JTextField textFieldSex = new JTextField();
+        JLabel labelName = new JLabel(CoreProperties.getString("String_Name"));
+        JTextField textFieldName = new JTextField(CoreProperties.getString("String_Sex"));
+        JLabel labelNewName = new JLabel(CoreProperties.getString("String_Sex"));
+        String[] newName = {CoreProperties.getString("String_Sex"), CoreProperties.getString("String_Sex"), CoreProperties.getString("String_Sex"), CoreProperties.getString("String_Sex")};
         JComboBox comboBox = new JComboBox(newName);
         comboBox.setRenderer(new DefaultListCellRenderer());
         comboBox.addItemListener(new ItemListener() {

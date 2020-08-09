@@ -1,6 +1,6 @@
-package com.supermap.DesktopJavaLearn.Controls;
+package com.zidu.DesktopJavaLearn.Controls;
 
-import com.supermap.DesktopJavaLearn.Tools.GridBagLayoutHelper;
+import com.zidu.DesktopJavaLearn.Tools.GridBagLayoutHelper;
 
 import javax.swing.*;
 import java.awt.*;

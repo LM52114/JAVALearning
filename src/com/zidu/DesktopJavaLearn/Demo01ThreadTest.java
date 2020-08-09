@@ -1,6 +1,6 @@
-package com.supermap.DesktopJavaLearn;
+package com.zidu.DesktopJavaLearn;
 
-import com.supermap.DesktopJavaLearn.Dialogs.DialogDemonDear;
+import com.zidu.DesktopJavaLearn.Dialogs.DialogDemonDear;
 
 public class Demo01ThreadTest {
     public static void main(String[] args) {
