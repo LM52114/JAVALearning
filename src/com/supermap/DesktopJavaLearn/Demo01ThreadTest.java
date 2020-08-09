@@ -1,10 +1,10 @@
 package com.supermap.DesktopJavaLearn;
 
-import com.supermap.DesktopJavaLearn.Dialogs.MyDialogDemon01;
+import com.supermap.DesktopJavaLearn.Dialogs.DialogDemonDear;
 
 public class Demo01ThreadTest {
     public static void main(String[] args) {
-        MyDialogDemon01 dialogDemon01 = new MyDialogDemon01();
+        DialogDemonDear dialogDemon01 = new DialogDemonDear();
         dialogDemon01.show();
     }
 
