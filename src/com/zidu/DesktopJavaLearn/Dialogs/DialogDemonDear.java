@@ -1,6 +1,6 @@
 package com.zidu.DesktopJavaLearn.Dialogs;
 
-import com.zidu.DesktopJavaLearn.Controls.ControlOKAndCancelButton;
+import com.zidu.DesktopJavaLearn.Controls.Button.ControlOKAndCancelButton;
 import com.zidu.DesktopJavaLearn.Tools.CoreProperties;
 import com.zidu.DesktopJavaLearn.Tools.GridBagLayoutHelper;
 
@@ -17,6 +17,7 @@ public class DialogDemonDear extends JDialog {
     private void init() {
         JPanel panel = new JPanel();
         this.setTitle(CoreProperties.getString("String_Dear"));
+        this.add(panel);
         JLabel labelSex = new JLabel(CoreProperties.getString("String_Sex"));
         JTextField textFieldSex = new JTextField();
         JLabel labelName = new JLabel(CoreProperties.getString("String_Name"));

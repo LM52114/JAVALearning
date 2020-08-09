@@ -16,7 +16,7 @@ public class CoreProperties extends Properties {
         ResourceBundle resourceBundle = ResourceBundle.getBundle(baseName, getLocale());
         if (resourceBundle != null) {
             try {
-                result = resourceBundle.getString(key);
+                result = new String(resourceBundle.getString(key).getBytes("ISO-8859-1"), "GBK");
             } catch (Exception e) {
                 e.printStackTrace();
             }

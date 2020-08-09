@@ -1,4 +1,4 @@
-package com.zidu.DesktopJavaLearn.Controls;
+package com.zidu.DesktopJavaLearn.Controls.Button;
 
 import com.zidu.DesktopJavaLearn.Tools.GridBagLayoutHelper;
 
