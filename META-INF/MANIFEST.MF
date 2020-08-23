@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: com.zidu.desktop.startup.StartUp
+SplashScreen-Image: splashImage.gif
+

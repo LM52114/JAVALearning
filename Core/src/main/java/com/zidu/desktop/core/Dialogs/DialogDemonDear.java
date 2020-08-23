@@ -17,6 +17,7 @@ public class DialogDemonDear extends HDialog {
     }
 
     private void init() {
+
         JPanel panel = new JPanel();
         this.setTitle(CoreProperties.getString("String_Dear"));
         this.add(panel);
