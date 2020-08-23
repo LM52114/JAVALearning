@@ -4,13 +4,13 @@ import java.util.ResourceBundle;
 
 public class CoreProperties extends Properties {
 
-    public static final String CORE = "Core";
+    public static  String CORE = "Core";
 
-    public static final String getString(String key) {
+    public static  String getString(String key) {
         return getString(CORE, key);
     }
 
-    public static final String getString(String baseName, String key) {
+    public static  String getString(String baseName, String key) {
         String result = "";
 
         ResourceBundle resourceBundle = ResourceBundle.getBundle(baseName, getLocale());

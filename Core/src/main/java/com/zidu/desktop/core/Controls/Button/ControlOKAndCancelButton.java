@@ -6,8 +6,8 @@ import javax.swing.*;
 import java.awt.*;
 
 public class ControlOKAndCancelButton extends JPanel {
-    JButton buttonOk = new JButton("确认");
-    JButton buttonCancel = new JButton("取消");
+    final JButton buttonOk = new JButton("确认");
+    final JButton buttonCancel = new JButton("取消");
 
     public ControlOKAndCancelButton() {
         initLayout();

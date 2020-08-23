@@ -5,7 +5,7 @@ import java.util.Locale;
 public class Properties {
     private static Locale locale = Locale.getDefault();
 
-    public static final Locale getLocale() {
+    public static Locale getLocale() {
         return locale;
     }
 

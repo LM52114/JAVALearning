@@ -10,6 +10,7 @@ import java.awt.*;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 
+@SuppressWarnings("ALL")
 public class DialogDemonDear extends HDialog {
     public DialogDemonDear() {
         init();
@@ -30,7 +31,9 @@ public class DialogDemonDear extends HDialog {
         comboBox.addItemListener(new ItemListener() {
             @Override
             public void itemStateChanged(ItemEvent e) {
-                textFieldName.setText(comboBox.getSelectedItem().toString());
+                if(comboBox.getSelectedItem()!=null) {
+                    textFieldName.setText(comboBox.getSelectedItem().toString());
+                }
             }
         });
         ControlOKAndCancelButton controlOKAndCancelButton = new ControlOKAndCancelButton();
