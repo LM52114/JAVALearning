@@ -31,17 +31,17 @@ public class SymbolInfo {
             return new Icon() {
                 @Override
                 public void paintIcon(Component c, Graphics g, int x, int y) {
-                    g.fillOval(0,0,4,4);
+                    g.fillOval(0,0,8,8);
                 }
 
                 @Override
                 public int getIconWidth() {
-                    return 4;
+                    return 8;
                 }
 
                 @Override
                 public int getIconHeight() {
-                    return 4;
+                    return 8;
                 }
             };
         }
@@ -54,7 +54,7 @@ public class SymbolInfo {
 
     public String getGroup() {
         if(group==null){
-            return null;
+            return "一组";
         }
         return group;
     }

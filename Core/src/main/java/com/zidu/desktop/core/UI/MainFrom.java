@@ -18,11 +18,36 @@ public class MainFrom extends JFrame {
     public MainFrom() throws HeadlessException {
         initParameter();
         initLayout();
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
     private void initLayout() {
         this.setSize(800,600);
         JPanel panelMain=new JPanel();
+        JSplitPane splitPane1=new JSplitPane();
+        splitPane1.setOrientation(JSplitPane.VERTICAL_SPLIT);
+        splitPane1.setOneTouchExpandable(true);
+        splitPane1.setTopComponent(panelMainFormShow);
+        splitPane1.setBottomComponent(panelMainFormProperties);
+
+        JSplitPane splitPane2=new JSplitPane();
+        splitPane2.setOrientation(JSplitPane.HORIZONTAL_SPLIT);
+        splitPane2.setOneTouchExpandable(true);
+        splitPane2.setLeftComponent(panelMainFormTree);
+        splitPane2.setBottomComponent(splitPane1);
+
+        JSplitPane splitPane3=new JSplitPane();
+        splitPane3.setOrientation(JSplitPane.VERTICAL_SPLIT);
+        splitPane3.setOneTouchExpandable(true);
+        splitPane3.setPreferredSize(new Dimension(800,600));
+        splitPane3.setDividerLocation(100);
+        splitPane3.setDividerSize(3);
+        splitPane3.setTopComponent(splitPane2);
+        splitPane3.setBottomComponent(panelMainFormOutput);
+
+
+
+
         panelMain.setLayout(new GridBagLayout());
         panelMain.add(mainFromMenuBar,new GridBagLayoutHelper(0,0,8,1).setAnchor(GridBagConstraints.NORTHWEST).setFill(GridBagConstraints.BOTH).setWeight(1,0));
 
@@ -30,7 +55,7 @@ public class MainFrom extends JFrame {
         panelMain.add(panelMainFormShow,new GridBagLayoutHelper(1,1,7,1).setAnchor(GridBagConstraints.EAST).setFill(GridBagConstraints.BOTH).setWeight(1,1));
         panelMain.add(panelMainFormProperties,new GridBagLayoutHelper(1,2,7,1).setAnchor(GridBagConstraints.EAST).setFill(GridBagConstraints.BOTH).setWeight(1,1));
         panelMain.add(panelMainFormOutput,new GridBagLayoutHelper(0,3,8,1).setAnchor(GridBagConstraints.SOUTH).setFill(GridBagConstraints.BOTH).setWeight(1,1));
-        this.getContentPane().add(panelMain);
+        this.getContentPane().add(splitPane3);
     }
 
     private void initParameter() {

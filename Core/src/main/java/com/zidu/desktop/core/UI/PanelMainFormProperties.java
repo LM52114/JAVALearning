@@ -27,6 +27,13 @@ public class PanelMainFormProperties extends JPanel {
         ArrayList<SymbolInfo> symbolInfos=new ArrayList<SymbolInfo>();
         symbolInfos.add(new SymbolInfo(0,"Symbol1"));
         symbolInfos.add(new SymbolInfo(1,"Symbol2"));
+        symbolInfos.add(new SymbolInfo(2,"Symbol2"));
+        symbolInfos.add(new SymbolInfo(3,"Symbol3"));
+        symbolInfos.add(new SymbolInfo(4,"Symbol4"));
+        symbolInfos.add(new SymbolInfo(5,"Symbol5"));
+        symbolInfos.add(new SymbolInfo(6,"Symbol6"));
+        symbolInfos.add(new SymbolInfo(7,"Symbol7"));
+
         table = new HSymbolTable(symbolInfos);
         scrollPane = new JScrollPane(table);
         table.setFillsViewportHeight(true);
