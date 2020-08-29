@@ -1,13 +1,16 @@
 package com.zidu.desktop.core.UI;
 
+import com.zidu.desktop.core.Controls.Table.HSymbolTable.HSymbolTable;
+import com.zidu.desktop.core.Controls.Table.HSymbolTable.SymbolInfo;
 import com.zidu.desktop.core.Tools.GridBagLayoutHelper;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.ArrayList;
 
 public class PanelMainFormProperties extends JPanel {
     private JScrollPane scrollPane;
-    private JTable table;
+    private HSymbolTable table;
     public PanelMainFormProperties() {
         initParameter();
         initLayout();
@@ -21,24 +24,10 @@ public class PanelMainFormProperties extends JPanel {
 
     private void initParameter() {
         this.setBorder(BorderFactory.createLineBorder(Color.red));
-        String[] columnNames = {"First Name",
-                "Last Name",
-                "Sport",
-                "# of Years",
-                "Vegetarian"};
-        Object[][] data = {
-                {"Kathy", "Smith",
-                        "Snowboarding", new Integer(5), new Boolean(false)},
-                {"John", "Doe",
-                        "Rowing", new Integer(3), new Boolean(true)},
-                {"Sue", "Black",
-                        "Knitting", new Integer(2), new Boolean(false)},
-                {"Jane", "White",
-                        "Speed reading", new Integer(20), new Boolean(true)},
-                {"Joe", "Brown",
-                        "Pool", new Integer(10), new Boolean(false)}
-        };
-        table = new JTable(data, columnNames);
+        ArrayList<SymbolInfo> symbolInfos=new ArrayList<SymbolInfo>();
+        symbolInfos.add(new SymbolInfo(0,"Symbol1"));
+        symbolInfos.add(new SymbolInfo(1,"Symbol2"));
+        table = new HSymbolTable(symbolInfos);
         scrollPane = new JScrollPane(table);
         table.setFillsViewportHeight(true);
     }
