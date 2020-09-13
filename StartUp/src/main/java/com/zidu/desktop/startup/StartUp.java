@@ -1,5 +1,6 @@
 package com.zidu.desktop.startup;
 
+import com.zidu.desktop.core.Dialogs.DialogSymbol;
 import com.zidu.desktop.core.Tools.CoreProperties;
 import com.zidu.desktop.core.UI.MainFrom;
 
@@ -15,6 +16,8 @@ public class StartUp {
 //                init();
                 MainFrom mainFrom=new MainFrom();
                 mainFrom.setVisible(true);
+                DialogSymbol dialogSymbol=new DialogSymbol();
+                dialogSymbol.setVisible(true);
             }
         });
 

@@ -14,6 +14,7 @@ public class PanelMainFormTree extends JPanel {
     private DefaultTreeCellRenderer treeCellRenderer;
     private DefaultCellEditor cellEditor;
     public PanelMainFormTree() {
+        this.setPreferredSize(new Dimension(200,1000));
         initParameter();
         initLayout();
     }

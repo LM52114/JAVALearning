@@ -12,6 +12,7 @@ public class PanelMainFormProperties extends JPanel {
     private JScrollPane scrollPane;
     private HSymbolTable table;
     public PanelMainFormProperties() {
+        this.setPreferredSize(new Dimension(200,200));
         initParameter();
         initLayout();
     }

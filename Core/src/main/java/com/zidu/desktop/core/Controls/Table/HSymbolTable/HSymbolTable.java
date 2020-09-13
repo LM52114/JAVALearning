@@ -28,9 +28,6 @@ public class HSymbolTable extends HTable {
         symbolTableModel.setSymbolInfos(symbolInfos);
         this.setModel(symbolTableModel);
         this.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
-//        DefaultTableCellRenderer defaultTableCellRenderer=new DefaultTableCellRenderer();
-//        defaultTableCellRenderer.setHorizontalAlignment(JLabel.CENTER);
-//        this.setDefaultRenderer(Object.class,defaultTableCellRenderer);
 
 
 

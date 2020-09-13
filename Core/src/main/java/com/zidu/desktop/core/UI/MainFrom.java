@@ -23,18 +23,20 @@ public class MainFrom extends JFrame {
 
     private void initLayout() {
         this.setSize(800,600);
-        JPanel panelMain=new JPanel();
+//        JPanel panelMain=new JPanel();
         JSplitPane splitPane1=new JSplitPane();
         splitPane1.setOrientation(JSplitPane.VERTICAL_SPLIT);
         splitPane1.setOneTouchExpandable(true);
-        splitPane1.setTopComponent(panelMainFormShow);
-        splitPane1.setBottomComponent(panelMainFormProperties);
+        splitPane1.setPreferredSize(new Dimension(400,220));
+        splitPane1.setLeftComponent(panelMainFormShow);
+        splitPane1.setRightComponent(panelMainFormProperties);
 
         JSplitPane splitPane2=new JSplitPane();
         splitPane2.setOrientation(JSplitPane.HORIZONTAL_SPLIT);
         splitPane2.setOneTouchExpandable(true);
+        splitPane2.setPreferredSize(new Dimension(400,220));
         splitPane2.setLeftComponent(panelMainFormTree);
-        splitPane2.setBottomComponent(splitPane1);
+        splitPane2.setRightComponent(splitPane1);
 
         JSplitPane splitPane3=new JSplitPane();
         splitPane3.setOrientation(JSplitPane.VERTICAL_SPLIT);
@@ -42,19 +44,19 @@ public class MainFrom extends JFrame {
         splitPane3.setPreferredSize(new Dimension(800,600));
         splitPane3.setDividerLocation(100);
         splitPane3.setDividerSize(3);
-        splitPane3.setTopComponent(splitPane2);
-        splitPane3.setBottomComponent(panelMainFormOutput);
+        splitPane3.setLeftComponent(splitPane2);
+        splitPane3.setRightComponent(panelMainFormOutput);
 
 
 
 
-        panelMain.setLayout(new GridBagLayout());
-        panelMain.add(mainFromMenuBar,new GridBagLayoutHelper(0,0,8,1).setAnchor(GridBagConstraints.NORTHWEST).setFill(GridBagConstraints.BOTH).setWeight(1,0));
-
-        panelMain.add(panelMainFormTree,new GridBagLayoutHelper(0,1,1,2).setAnchor(GridBagConstraints.WEST).setFill(GridBagConstraints.BOTH).setWeight(1,1));
-        panelMain.add(panelMainFormShow,new GridBagLayoutHelper(1,1,7,1).setAnchor(GridBagConstraints.EAST).setFill(GridBagConstraints.BOTH).setWeight(1,1));
-        panelMain.add(panelMainFormProperties,new GridBagLayoutHelper(1,2,7,1).setAnchor(GridBagConstraints.EAST).setFill(GridBagConstraints.BOTH).setWeight(1,1));
-        panelMain.add(panelMainFormOutput,new GridBagLayoutHelper(0,3,8,1).setAnchor(GridBagConstraints.SOUTH).setFill(GridBagConstraints.BOTH).setWeight(1,1));
+//        panelMain.setLayout(new GridBagLayout());
+//        panelMain.add(mainFromMenuBar,new GridBagLayoutHelper(0,0,8,1).setAnchor(GridBagConstraints.NORTHWEST).setFill(GridBagConstraints.BOTH).setWeight(1,0));
+//
+//        panelMain.add(panelMainFormTree,new GridBagLayoutHelper(0,1,1,2).setAnchor(GridBagConstraints.WEST).setFill(GridBagConstraints.BOTH).setWeight(1,1));
+//        panelMain.add(panelMainFormShow,new GridBagLayoutHelper(1,1,7,1).setAnchor(GridBagConstraints.EAST).setFill(GridBagConstraints.BOTH).setWeight(1,1));
+//        panelMain.add(panelMainFormProperties,new GridBagLayoutHelper(1,2,7,1).setAnchor(GridBagConstraints.EAST).setFill(GridBagConstraints.BOTH).setWeight(1,1));
+//        panelMain.add(panelMainFormOutput,new GridBagLayoutHelper(0,3,8,1).setAnchor(GridBagConstraints.SOUTH).setFill(GridBagConstraints.BOTH).setWeight(1,1));
         this.getContentPane().add(splitPane3);
     }
 
