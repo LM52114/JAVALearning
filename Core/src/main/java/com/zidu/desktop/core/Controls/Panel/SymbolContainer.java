@@ -12,13 +12,15 @@ import java.util.ArrayList;
 
 public class SymbolContainer extends JPanel {
     //记录当前选中的SymbolPanel
-    private ArrayList<SymbolPanel>symbolPanels=new ArrayList<SymbolPanel>();
-    private boolean isAnother=false;
-    private boolean extend=false;
+    private ArrayList<SymbolPanel> symbolPanels = new ArrayList<SymbolPanel>();
+    private boolean toggle = false;//ctrlDown
+    private boolean extend = false;//shiftDown
     protected DefaultListSelectionModel selectionModel;
+
     public DefaultListSelectionModel getSelectionModel() {
         return selectionModel;
     }
+
     public void setSelectionModel(DefaultListSelectionModel selectionModel) {
         this.selectionModel = selectionModel;
     }
@@ -31,7 +33,7 @@ public class SymbolContainer extends JPanel {
     }
 
     private void initParameter() {
-        selectionModel=new DefaultListSelectionModel();
+        selectionModel = new DefaultListSelectionModel();
         selectionModel.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
         this.setSelectionModel(selectionModel);
     }
@@ -42,22 +44,18 @@ public class SymbolContainer extends JPanel {
             public void mousePressed(MouseEvent e) {
                 if (getComponentAt(e.getPoint()) instanceof SymbolPanel) {
                     if (e.getButton() == MouseEvent.BUTTON1) {
-                        if (selectionModel.getSelectionMode() == ListSelectionModel.SINGLE_SELECTION) {
-                            getSelectionModel().setSelectionInterval(getComponentZOrder(getComponentAt(e.getPoint())),getComponentZOrder(getComponentAt(e.getPoint())));
-                        }else {
-                            if (e.isControlDown()) {
-                                extend=false;
-                                isAnother=true;
-                                getSelectionModel().addSelectionInterval(getComponentZOrder(getComponentAt(e.getPoint())), getComponentZOrder(getComponentAt(e.getPoint())));
-                            }else if(e.isShiftDown()){
-                                isAnother=false;
-                                extend=true;
-                                getSelectionModel().setSelectionInterval(getComponentZOrder(getComponentAt(e.getPoint())),getComponentZOrder(getComponentAt(e.getPoint())));
-                            }else{
-                                extend=false;
-                                isAnother=false;
-                                getSelectionModel().setSelectionInterval(getComponentZOrder(getComponentAt(e.getPoint())),getComponentZOrder(getComponentAt(e.getPoint())));
-                            }
+                        if (e.isControlDown()) {
+                            extend = false;
+                            toggle = true;
+                            getSelectionModel().addSelectionInterval(getComponentZOrder(getComponentAt(e.getPoint())), getComponentZOrder(getComponentAt(e.getPoint())));
+                        } else if (e.isShiftDown()) {
+                            toggle = false;
+                            extend = true;
+                            getSelectionModel().setSelectionInterval(getComponentZOrder(getComponentAt(e.getPoint())), getComponentZOrder(getComponentAt(e.getPoint())));
+                        } else {
+                            extend = false;
+                            toggle = false;
+                            getSelectionModel().setSelectionInterval(getComponentZOrder(getComponentAt(e.getPoint())), getComponentZOrder(getComponentAt(e.getPoint())));
                         }
                     } else if (e.getButton() == MouseEvent.BUTTON3) {
                         ((SymbolPanel) getComponentAt(e.getPoint())).setUnSelect();
@@ -65,18 +63,23 @@ public class SymbolContainer extends JPanel {
                 }
             }
         });
+
+
         SymbolContainer.this.getSelectionModel().addListSelectionListener(new ListSelectionListener() {
             @Override
             public void valueChanged(ListSelectionEvent e) {
-                if(!isAnother) {
+                if (!toggle) {
                     ClearAllSelection();
-                    isAnother=false;
+                    toggle = false;
                 }
-                if(!extend) {
+                symbolPanels.clear();
+                if (!extend) {
                     ((SymbolPanel) getComponent(getSelectionModel().getAnchorSelectionIndex())).setSelect();
-                }else{
-                    for (int i = Math.min(e.getFirstIndex(),e.getLastIndex()); i <=Math.max(e.getFirstIndex(),e.getLastIndex()) ; i++) {
+                    symbolPanels.add((SymbolPanel) getComponent(getSelectionModel().getAnchorSelectionIndex()));
+                } else {
+                    for (int i = Math.min(e.getFirstIndex(), e.getLastIndex()); i <= Math.max(e.getFirstIndex(), e.getLastIndex()); i++) {
                         ((SymbolPanel) getComponent(i)).setSelect();
+                        symbolPanels.add((SymbolPanel) getComponent(i));
                     }
                 }
             }
@@ -84,27 +87,11 @@ public class SymbolContainer extends JPanel {
         this.addKeyListener(new KeyAdapter() {
             @Override
             public void keyPressed(KeyEvent e) {
-                if(e.isControlDown()&&e.getKeyCode()==KeyEvent.VK_A){
+                if (e.isControlDown() && e.getKeyCode() == KeyEvent.VK_A) {
                     selectAllSymbolPanels();
                 }
             }
         });
-    }
-    protected void fireSelectionValueChanged(int firstIndex, int lastIndex,
-                                             boolean isAdjusting)
-    {
-        Object[] listeners = listenerList.getListenerList();
-        ListSelectionEvent e = null;
-
-        for (int i = listeners.length - 2; i >= 0; i -= 2) {
-            if (listeners[i] == ListSelectionListener.class) {
-                if (e == null) {
-                    e = new ListSelectionEvent(this, firstIndex, lastIndex,
-                            isAdjusting);
-                }
-                ((ListSelectionListener)listeners[i+1]).valueChanged(e);
-            }
-        }
     }
 
     private void initLayout() {
@@ -120,9 +107,10 @@ public class SymbolContainer extends JPanel {
             this.getComponent(i).setBackground(null);
         }
     }
+
     private void selectAllSymbolPanels() {
         for (int i = 0; i < this.getComponentCount(); i++) {
-            ((SymbolPanel)this.getComponent(i)).setSelect();
+            ((SymbolPanel) this.getComponent(i)).setSelect();
         }
     }
 
