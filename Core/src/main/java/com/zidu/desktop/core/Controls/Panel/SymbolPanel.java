@@ -7,9 +7,18 @@ import java.awt.*;
 
 public class SymbolPanel extends JPanel {
     private JLabel name;
+    private String stringName="name";
     private JLabel icon;
+    private String stringIcon="This is an icon";
 
     public SymbolPanel() {
+        initParameter();
+        initLayout();
+    }
+
+    public SymbolPanel(String stringName, String stringIcon) {
+        this.stringName = stringName;
+        this.stringIcon = stringIcon;
         initParameter();
         initLayout();
     }
@@ -21,8 +30,8 @@ public class SymbolPanel extends JPanel {
     }
 
     private void initParameter() {
-        name=new JLabel("name");
-        icon=new JLabel("This is an icon");
+        name=new JLabel(stringName);
+        icon=new JLabel(stringIcon);
     }
     public void setSelect(){
         this.setBackground(Color.BLACK);

@@ -35,6 +35,8 @@ public class PanelMainFormTree extends JPanel {
         this.setBackground(null);
         treeCellRenderer=new DefaultTreeCellRenderer();
         tree.setCellRenderer(new DefaultTreeCellRenderer());
+
+        tree.setRootVisible(false);
     }
     private void createNodes(DefaultMutableTreeNode top) {
         DefaultMutableTreeNode category = null;

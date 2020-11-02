@@ -96,10 +96,11 @@ public class SymbolContainer extends JPanel {
 
     private void initLayout() {
         this.setLayout(new FlowLayout());
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 100; i++) {
             SymbolPanel symbolPanel = new SymbolPanel();
             this.add(symbolPanel);
         }
+        this.add(new SymbolPanel("end","end"));
     }
 
     private void ClearAllSelection() {
