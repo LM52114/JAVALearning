@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Core/Core.iml" filepath="$PROJECT_DIR$/Core/Core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" filepath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Online/Online.iml" filepath="$PROJECT_DIR$/Online/Online.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring/Spring.iml" filepath="$PROJECT_DIR$/Spring/Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StartUp/StartUp.iml" filepath="$PROJECT_DIR$/StartUp/StartUp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebCraw/crawler4j-examples-base.iml" filepath="$PROJECT_DIR$/WebCraw/crawler4j-examples-base.iml" />
+    </modules>
+  </component>
+</project>
