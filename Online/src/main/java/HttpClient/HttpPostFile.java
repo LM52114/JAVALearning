@@ -6,11 +6,10 @@ import java.net.URL;
 
 /**
  * @Author Li Hao
- * @Date 2020/12/30 20:23
+ * @Date 2020/12/31 17:30
  * @Version 1.0
  */
-public class PostLocalFile {
-
+public class HttpPostFile {
     private static final String REQUEST_PATH = "http://localhost/server_url.php";
     private static final String BOUNDARY = "20140501";
 
@@ -19,8 +18,6 @@ public class PostLocalFile {
      * @throws Exception
      */
     public static void main(String[] args) throws Exception {
-        // TODO Auto-generated method stub
-
         URL url = new URL(REQUEST_PATH);
         HttpURLConnection httpConn = (HttpURLConnection) url.openConnection();
         httpConn.setConnectTimeout(3000); // 设置发起连接的等待时间，3s
@@ -72,6 +69,4 @@ public class PostLocalFile {
         reader.close();
         httpConn.disconnect();
     }
-
-
 }
