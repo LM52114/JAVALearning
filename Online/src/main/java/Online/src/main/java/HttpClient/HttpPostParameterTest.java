@@ -1,5 +1,15 @@
 package Online.src.main.java.HttpClient;
 
+import com.sun.javaws.exceptions.JreExecException;
+
+import javax.swing.*;
+import javax.swing.event.TreeExpansionEvent;
+import javax.swing.event.TreeWillExpandListener;
+import javax.swing.tree.DefaultMutableTreeNode;
+import javax.swing.tree.DefaultTreeCellRenderer;
+import javax.swing.tree.ExpandVetoException;
+import javax.swing.tree.TreePath;
+import java.awt.*;
 import java.util.regex.Pattern;
 
 /**
@@ -30,6 +40,19 @@ public class HttpPostParameterTest {
                 result = false;
             }
         }
+        DefaultMutableTreeNode node=new DefaultMutableTreeNode();
+        final JTree tree=new JTree();
+        tree.addTreeWillExpandListener(new TreeWillExpandListener() {
+            public void treeWillExpand(TreeExpansionEvent treeExpansionEvent) throws ExpandVetoException {
+                if(tree.getSelectionPath().getLastPathComponent() instanceof String){
+
+                }
+            }
+
+            public void treeWillCollapse(TreeExpansionEvent treeExpansionEvent) throws ExpandVetoException {
+
+            }
+        });
         System.out.println("result = " + result);
     }
 

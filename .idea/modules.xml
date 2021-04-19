@@ -4,10 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Core/Core.iml" filepath="$PROJECT_DIR$/Core/Core.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" filepath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Game/Game.iml" filepath="$PROJECT_DIR$/Game/Game.iml" />
       <module fileurl="file://$PROJECT_DIR$/Online/Online.iml" filepath="$PROJECT_DIR$/Online/Online.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring/Spring.iml" filepath="$PROJECT_DIR$/Spring/Spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/StartUp/StartUp.iml" filepath="$PROJECT_DIR$/StartUp/StartUp.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebCraw/crawler4j-examples-base.iml" filepath="$PROJECT_DIR$/WebCraw/crawler4j-examples-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myBatis/myBatis.iml" filepath="$PROJECT_DIR$/myBatis/myBatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gaode_poi-master/test.iml" filepath="$PROJECT_DIR$/gaode_poi-master/test.iml" />
     </modules>
   </component>
 </project>

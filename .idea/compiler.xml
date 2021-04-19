@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="myBatis" />
+        <module name="Game" />
+        <module name="test" />
+        <module name="crawler4j-examples-base" />
+        <module name="DesignPatterns" />
         <module name="Online" />
         <module name="Spring" />
         <module name="StartUp" />
-        <module name="DesignPatterns" />
-        <module name="crawler4j-examples-base" />
         <module name="Core" />
       </profile>
     </annotationProcessing>
@@ -18,9 +21,12 @@
       <module name="Core" target="6" />
       <module name="crawler4j-examples-base" target="1.8" />
       <module name="DesignPatterns" target="1.5" />
+      <module name="Game" target="1.5" />
+      <module name="myBatis" target="1.5" />
       <module name="Online" target="1.5" />
       <module name="Spring" target="1.5" />
       <module name="StartUp" target="6" />
+      <module name="test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
